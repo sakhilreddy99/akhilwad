@@ -1,0 +1,24 @@
+{
+  "name": "platepilot",
+  "version": "2.0.0",
+  "description": "PlatePilot: Budget-Aware Student Diet Planning & Knapsack Optimization Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "keywords": [
+    "nutrition",
+    "student-budget",
+    "knapsack-optimization",
+    "diet-planner",
+    "hostel-meals",
+    "chartjs"
+  ],
+  "author": "MRVECE2630026",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  }
+}
